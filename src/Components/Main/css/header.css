@@ -1,0 +1,21 @@
+@media screen and (max-width: 1182px) {
+    .carosal_form {
+        display: none;
+       
+    }
+    .form_button {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .carosal_form {
+        display: nome;
+        /* width: 40%; */
+       
+    }
+    .form_button {
+        display: none;
+    }
+
+}

@@ -1,0 +1,36 @@
+.contact_container {
+    border: none;
+    box-shadow: 5px 5px 20px #888888;
+}
+
+@media screen and (max-width: 990px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form_contact_input {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.contact_form {
+    text-align: center;
+
+}
+
+.contact_form input textarea {
+    width: 40%;
+    margin-left: 25%;
+    /* text-align: center;
+    justify-content: center; */
+
+}
+
+.form-control {
+    width: 70%;
+    margin: auto;
+}

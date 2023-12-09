@@ -1,0 +1,15 @@
+.sectiontwo_card_img {
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 990px) {
+    .card_text {
+        width: 100%;
+    }
+    .sectiontwo_card_img {
+        width: 100%;
+        margin-top: -20px;
+    }
+}
+
+/* style={{ width: '90%', marginTop: '55px', borderRadius: '10px' }} */

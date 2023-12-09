@@ -1,0 +1,59 @@
+.card-img-top {
+    width: 70%;
+}
+
+.col .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 3px 3px 10px #888888;
+
+}
+
+
+@media screen and (max-width: 990px) {
+    .row {
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .join_img {
+        width: 40%;
+        border: 10px;
+        box-shadow: 5px 5px 20px #888888;
+
+    }
+
+    .join_us {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    /* .card-img-top img {
+        width: 25%;
+    } */
+
+    .col-md-4 {
+        margin-top: 12%;
+
+    }
+
+}
+
+@media screen and (min-width: 568px) {
+    .col-md-4 {
+        margin-top: 0%;
+
+    }
+}
+.main_container {
+    border: none;
+    box-shadow: 5px 5px 30px #888888;
+}

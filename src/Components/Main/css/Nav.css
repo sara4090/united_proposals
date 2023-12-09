@@ -1,0 +1,15 @@
+.navbar ul li a{
+    color: red;
+}
+nav.container-fluid {
+    background: rgb(250, 221, 231);
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px #888888;
+    
+}
+.navbar .container-fluid {
+    background-color: rgb(249, 243, 244);
+}
+

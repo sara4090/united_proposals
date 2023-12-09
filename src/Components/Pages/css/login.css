@@ -1,0 +1,28 @@
+.login_card {
+    border: none;
+    box-shadow: 5px 5px 15px #888888;
+    width: 70%;
+
+}
+.login_img {
+    margin: auto;
+    /* width: 33%; */
+}
+.login_form {
+    width: 50%;
+}
+.login_heading {
+    color: red;
+    font-style: italic;
+    font-weight: 500;
+}
+.span{
+    list-style-type: none;
+    color: red;
+    text-decoration: none;
+}
+@media screen and (max-width: 990px) {
+    .login_img {
+        margin-top: 10px;
+    }
+}
