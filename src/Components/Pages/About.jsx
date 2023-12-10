@@ -50,7 +50,7 @@ const About = () => {
             <div class="container text-center mt-5">
                 <h3>What Sets Us Apart?</h3>
                 <div class="row mt-5">
-                    <div class="col">
+                    <div class="col about_section">
 
                         <div class="card" style={{ width: "18rem;" }}>
                             <img src={match} class="card-img-top" alt="..." />
@@ -60,7 +60,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col about_section">
                         <div class="card" style={{ width: "18rem;" }}>
                             <img src={privecy} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -71,7 +71,7 @@ const About = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col about_section">
                         <div class="card" style={{ width: "18rem;" }}>
                             <img src={profile} class="card-img-top" alt="..." />
                             <div class="card-body">
@@ -94,12 +94,12 @@ const About = () => {
                     <div class="row g-0 join_us" >
 
                         <div class="col-md-8 mt-5">
-                            <div class="card-body mt-5" style={{textAlign: "center", width: "50%", margin: "auto ", lineHeight: "2"}}>
+                            <div class="card-body mt-5" style={{textAlign: "center",  margin: "auto ", lineHeight: "2"}}>
                                 <h6 class="card-title text-danger">At United Proposals</h6>
                                 <p class="card-text"> We invite you to embark on a journey of love, companionship, and joy. Let us be a part of your story, helping you find a soulmate with whom you can create a lifetime of cherished memories. Your happily ever after awaits – start your adventure with us today!</p>
                             </div>
                         </div>
-                        <div class="col-md-4 join_img mb-2" >
+                        <div class="col-md-4 join_img mb-5" >
                             <img src={support} class="img-fluid rounded-start" alt="..."  />
                         </div>
                     </div>

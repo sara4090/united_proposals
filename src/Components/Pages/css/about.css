@@ -15,17 +15,20 @@
 
 @media screen and (max-width: 990px) {
     .row {
-        margin: 0 auto;
+        margin: 0px auto;
         display: flex;
         flex-direction: column;
 
     }
 
     .join_img {
-        width: 40%;
+        width: 60%;
         border: 10px;
         box-shadow: 5px 5px 20px #888888;
 
+    }
+    .about_section {
+        margin-top: 35px;
     }
 
     .join_us {
